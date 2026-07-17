@@ -27,7 +27,11 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 720);
+<<<<<<< HEAD
   if (!window.Create(L"app", origin, size)) {
+=======
+  if (!window.Create(L"shopsage_frontend_flutter", origin, size)) {
+>>>>>>> dff7227195800fccfc8a73b3046c9ae12add2d23
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);

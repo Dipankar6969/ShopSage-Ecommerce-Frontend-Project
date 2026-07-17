@@ -1,10 +1,18 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
+<<<<<<< HEAD
 project(app LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
 set(BINARY_NAME "app")
+=======
+project(shopsage_frontend_flutter LANGUAGES CXX)
+
+# The name of the executable created for the application. Change this to change
+# the on-disk name of your application.
+set(BINARY_NAME "shopsage_frontend_flutter")
+>>>>>>> dff7227195800fccfc8a73b3046c9ae12add2d23
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

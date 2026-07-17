@@ -6,7 +6,11 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.example.app"
+=======
+    namespace = "com.example.shopsage_frontend_flutter"
+>>>>>>> dff7227195800fccfc8a73b3046c9ae12add2d23
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -21,7 +25,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+<<<<<<< HEAD
         applicationId = "com.example.app"
+=======
+        applicationId = "com.example.shopsage_frontend_flutter"
+>>>>>>> dff7227195800fccfc8a73b3046c9ae12add2d23
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

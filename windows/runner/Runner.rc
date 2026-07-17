@@ -90,12 +90,21 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
+<<<<<<< HEAD
             VALUE "FileDescription", "app" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "app" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "app.exe" "\0"
             VALUE "ProductName", "app" "\0"
+=======
+            VALUE "FileDescription", "shopsage_frontend_flutter" "\0"
+            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "InternalName", "shopsage_frontend_flutter" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "shopsage_frontend_flutter.exe" "\0"
+            VALUE "ProductName", "shopsage_frontend_flutter" "\0"
+>>>>>>> dff7227195800fccfc8a73b3046c9ae12add2d23
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
