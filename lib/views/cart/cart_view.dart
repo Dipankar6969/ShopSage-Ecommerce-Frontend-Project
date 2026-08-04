@@ -77,6 +77,7 @@ class _CartViewState extends State<CartView> {
           'country': country,
         },
         totalPrice: cartController.totalAmount.toInt(),
+        paymentMethod: selectedPayment == 'khalti' ? 'khalti' : 'cash',
       );
 
       if (selectedPayment == 'cash') {

@@ -127,13 +127,14 @@ class ApiService {
   Future<OrderModel> createOrder({
     required List<Map<String, dynamic>> orderItems,
     required Map<String, dynamic> shippingAddress,
-    required int totalPrice,
+    required int totalPrice, required String paymentMethod,
   }) async {
     try {
       final response = await _dio.post('/api/orders', data: {
         'orderItems': orderItems,
         'shippingAddress': shippingAddress,
         'totalPrice': totalPrice,
+        'paymentMethod': paymentMethod,
       });
       return OrderModel.fromJson(response.data as Map<String, dynamic>);
     } on DioException catch (error) {
